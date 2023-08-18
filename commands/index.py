@@ -1,2 +1,1 @@
-"""An index of all the commands
-"""
+"""An index of all the commands"""
