@@ -1,17 +1,23 @@
-shell = True
-user = "guest"
-device = "mainframe"
+"""Module providing colors for the shell"""
+from utilities.colors import COLORS
 
-def Initialization():
-    print("SymplexShell@v5.67")
+SHELL = True
+USER = "guest"
+DEVICE = "mainframe"
 
-def Engine():
-    while shell:
-        cmd = input(f"{user}@{device} ~$ ")
+def initialization():
+    """Function to initialize the shell"""
+    print(f"{COLORS['WHITE']}SymplexShell@v5.67")
 
-def Main():
-    Initialization()
-    Engine()
+def engine():
+    """Main shell engine"""
+    while SHELL:
+        cmd = input(f"{COLORS['WHITE']}{USER}@{DEVICE} ~$ ")
+
+def main():
+    """Main function"""
+    initialization()
+    engine()
 
 if __name__ == "__main__":
-    Main()
+    main()
