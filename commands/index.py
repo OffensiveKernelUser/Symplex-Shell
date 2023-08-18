@@ -3,8 +3,7 @@ from .debug.echo import echo
 
 def interpreter(command):
     """Function to choose what command to execute"""
-    match command:
-        case command.startswith("echo "):
-            echo(command - "echo ")
-        case other:
-            pass
+    if command.startswith("echo "):
+        echo(command - "echo ")
+    else:
+        pass
