@@ -6,3 +6,5 @@ def interpreter(command):
     match command:
         case command.startswith("echo "):
             echo(command - "echo ")
+        case other:
+            pass

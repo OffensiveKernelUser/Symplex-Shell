@@ -17,7 +17,6 @@ def engine():
         cmd = input(f"{COLORS['WHITE']}{USER}@{DEVICE} ~$ ")
         interpreter(cmd)
 
-
 def main():
     """Main function"""
     initialization()
