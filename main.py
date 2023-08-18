@@ -1,4 +1,5 @@
 """Main program"""
+from commands.index import interpreter
 from utilities.colors import COLORS
 
 SHELL = True
@@ -13,7 +14,9 @@ def initialization():
 def engine():
     """Main shell engine"""
     while SHELL:
-        CMD = input(f"{COLORS['WHITE']}{USER}@{DEVICE} ~$ ")
+        cmd = input(f"{COLORS['WHITE']}{USER}@{DEVICE} ~$ ")
+        interpreter(cmd)
+
 
 def main():
     """Main function"""
