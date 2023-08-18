@@ -9,4 +9,4 @@ def interpreter(command):
     elif command == "":
         pass
     else:
-        print(f"{COLORS['RED']}Error: Unknown command")
+        print(f"{COLORS['RED']}Error: Unknown command\nTry installing a package containing the command {command.split(' ')[0]}")
