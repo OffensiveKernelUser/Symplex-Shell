@@ -2,12 +2,13 @@
 from utilities.colors import COLORS
 
 SHELL = True
+VERSION = "5.67"
 USER = "guest"
 DEVICE = "mainframe"
 
 def initialization():
     """Function to initialize the shell"""
-    print(f"{COLORS['WHITE']}SymplexShell@v5.67")
+    print(f"{COLORS['WHITE']}SymplexShell@v{VERSION}")
 
 def engine():
     """Main shell engine"""
