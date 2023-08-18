@@ -1,5 +1,5 @@
 """Main program"""
-from commands.index import interpreter
+from index import interpreter
 from utilities.colors import COLORS
 
 SHELL = True
