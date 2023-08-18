@@ -1,4 +1,4 @@
-"""Module providing colors for the shell"""
+"""Main program"""
 from utilities.colors import COLORS
 
 SHELL = True
