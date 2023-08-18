@@ -1,4 +1,4 @@
-global COLORS
+"""Module to provide colors to the shell"""
 COLORS = {
     "WHITE": "\033[1;49;37m",
     "RED": "\033[1;49;31m",

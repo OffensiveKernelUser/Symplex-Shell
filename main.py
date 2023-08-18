@@ -12,7 +12,7 @@ def initialization():
 def engine():
     """Main shell engine"""
     while SHELL:
-        cmd = input(f"{COLORS['WHITE']}{USER}@{DEVICE} ~$ ")
+        CMD = input(f"{COLORS['WHITE']}{USER}@{DEVICE} ~$ ")
 
 def main():
     """Main function"""
